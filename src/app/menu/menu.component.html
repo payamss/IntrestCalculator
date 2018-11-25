@@ -1,0 +1,12 @@
+<h2>Intrest Calculator</h2>
+<ul class="leftMenu">
+  <li *ngFor="let a of leftMenu">
+        <span class="badge">{{a.id}}</span> {{a.name}}
+  </li>
+</ul>
+
+<div>
+  <label>name:
+    <input [(ngModel)]="leftMenu.name" placeholder="name">
+  </label>
+</div>
